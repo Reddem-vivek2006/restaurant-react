@@ -1,0 +1,27 @@
+.card {
+  border: 2px solid transparent;
+  background: linear-gradient(black, black) padding-box,
+              linear-gradient(45deg, #FF10F0, #00FFFF) border-box;
+  border-radius: 20px; /* Match the card's border radius */
+}
+/* Add hover effect to the card */
+.hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+}
+
+.hover-effect:hover {
+  transform: scale(1.05); /* Slightly scale up the card */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  cursor: pointer; /* Change cursor to pointer to indicate interactivity */
+}
+
+/* Optional: Add hover effect to the button */
+.btn-primary:hover {
+  background-color: #0056b3; /* Darken the button color on hover */
+  transform: scale(1.05); /* Slightly scale up the button */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+   background-color: orange;
+    border: none;
+    box-shadow: 0 0 10px #ff9800, 0 0 20px #ff9800;
+    transform: scale(1.1);
+}

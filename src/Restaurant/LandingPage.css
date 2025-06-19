@@ -1,0 +1,178 @@
+/* .landing-container {
+  text-align: center;
+  background-image: url('/public/background7.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links button {
+  margin-left: 15px;
+  padding: 10px 15px;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-links button:hover {
+  color: #ffcc00;
+  transform: scale(1.1);
+}
+.get-started {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.get-started:hover {
+  box-shadow: 0 0 10px orange, 0 0 20px orange;
+}
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid white; 
+  width: 0; 
+  animation: typing 1.5s steps(20, end) forwards, blink 0.5s step-end 6; 
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: white; }
+} */
+ /* Background & Page Layout */
+.landing-container {
+  text-align: center;
+  background-image: url('/public/background7.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Navbar - Enhanced Styling */
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px); /* Adds a blur effect to the navbar background */
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1); /* Subtle border */
+}
+
+.logo {
+  color: white;
+  font-size: 28px; /* Slightly larger font size */
+  font-weight: bold;
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 2px; /* Add spacing between letters */
+  background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Gradient text effect */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.logo:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.nav-links button {
+  margin-left: 20px; /* Increased spacing between buttons */
+  padding: 12px 20px; /* Larger padding for buttons */
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500; /* Medium font weight */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 1px; /* Add spacing between letters */
+  border-radius: 25px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-links button:hover {
+  background: rgba(255, 255, 255, 0.1); /* Light background on hover */
+  border-color: rgba(255, 255, 255, 0.5); /* Brighter border on hover */
+  color: #ffcc00; /* Change text color on hover */
+  transform: scale(1.05); /* Slightly scale up on hover */
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.5); /* Glow effect on hover */
+}
+
+/* Get Started Button */
+.get-started {
+  padding: 15px 30px; /* Slightly larger padding */
+  font-size: 20px; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  color: white; /* White text color */
+  background: linear-gradient(45deg, #FF10F0, #00FFFF, #39FF14); /* Gradient background */
+  border: none; /* Remove default border */
+  border-radius: 30px; /* Rounded corners */
+  cursor: pointer;
+  transition: all 0.5s ease; /* Smooth transition for hover effects */
+  box-shadow: 0 0 15px rgba(255, 16, 240, 0.6), 0 0 30px rgba(0, 255, 255, 0.6); /* Glow effect */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 1px; /* Add spacing between letters */
+}
+
+.get-started:hover {
+  transform: scale(1.1); /* Slightly scale up on hover */
+  box-shadow: 0 0 25px rgba(255, 16, 240, 0.8), 0 0 50px rgba(0, 255, 255, 0.8); /* Enhanced glow on hover */
+  background: linear-gradient(45deg, #00FFFF, #39FF14, #FF10F0); /* Reverse gradient on hover */
+}
+
+/* Typewriter Effect */
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid white;
+  width: 0;
+  animation: typing 1.5s steps(20, end) forwards, blink 0.5s step-end 6;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: white; }
+}

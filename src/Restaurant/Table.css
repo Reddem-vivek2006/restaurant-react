@@ -1,0 +1,6 @@
+.btn:hover{
+    background-color: orange;
+    border: none;
+    box-shadow: 0 0 10px #ff9800, 0 0 20px #ff9800;
+    transform: scale(1.1);
+}
